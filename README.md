@@ -35,14 +35,14 @@ Office Care will be an integrated e-commerce application that tries to meet your
 Contributions are always welcome! Follow these steps to contribute:
 1. Fork the repository.
 2. Create a new branch:
-
-    ```git checkout -b feature-name```
+    ```bash
+    git checkout -b feature-name
 3. Make your changes and commit them:
-
-    ```git commit -m "Description of changes"```
+    ```bash
+    git commit -m "Description of changes"
 4. Push to the branch:
-
-    ```git push origin feature-name```
+    ```bash
+    git push origin feature-name
 5. Open a pull request.
 
 
