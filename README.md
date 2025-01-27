@@ -1,1 +1,1 @@
-# Ecommerce_Office_Care
+# E-commerce OfficeCare - MERN Stack Project
