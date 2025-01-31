@@ -39,7 +39,8 @@ Ensure you have the following installed:
     Open your terminal and clone the repository:
     ```bash
     git clone <repository-url>
-Replace <repository-url> with the GitHub repository URL.
+    ```
+    Replace <repository-url> with the GitHub repository URL.
 
 2. **Navigate to the Client Folder**
 
