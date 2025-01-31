@@ -23,6 +23,74 @@ Office Care will be an integrated e-commerce application that tries to meet your
 
 
 
+## Getting Started
+Follow the steps below to set up the OfficeCare e-commerce app on your local machine:
+
+### Prerequisites
+ 
+Ensure you have the following installed:
+- Node.js: [Download and install Node.js](https://nodejs.org/en)
+- MongoDB: [Download and install MongoDB](https://www.mongodb.com/)
+- Git: [Download and install Git](https://git-scm.com/)
+
+### Installation
+1. **Clone the Repository**
+    
+    Open your terminal and clone the repository:
+    ```bash
+    git clone <repository-url>
+Replace <repository-url> with the GitHub repository URL.
+
+2. **Navigate to the Client Folder**
+
+    Change directory to the client folder:
+    ```bash
+    cd client
+
+3. **Install Client Dependencies**
+
+    Install the necessary packages for the React.js/Next.js front-end(client-side):
+    ```bash
+    npm install
+
+4. **Navigate to the Server Folder**
+    
+    Return to the root directory and navigate to the server folder:
+    ```bash
+    cd ../server
+
+5. **Install Server Dependencies**
+
+    Install the required Node.js and Express.js packages:
+    ```bash
+    npm install mongoose nodemon
+
+6. **Set Up Environment Variables**
+
+    Create a .env file in the server folder with the following keys:
+    ```bash
+    MONGO_URI=<your-mongodb-connection-string>
+    PORT=5000
+
+Replace <your-mongodb-connection-string> with the URL of your MongoDB database.
+
+7. **Run the Application**
+- Start the server:
+
+    ```bash
+    npm run dev
+
+This will start the back-end server with **nodemon** for auto-restart during development.
+- Start the client (in a separate terminal, from the client folder):
+
+    ```bash
+    npm run dev
+
+8. **Access the Application**
+- Front-End: The React.js/Next.js app will typically be available at http://localhost:3000.
+- Back-End: The Express.js server will run on http://localhost:5000 or the port specified in your .env file.
+
+
 ## Technology Stack
 
 - **Front-End:** React, Next.js, TailwindCSS
