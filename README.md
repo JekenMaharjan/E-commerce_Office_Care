@@ -72,8 +72,9 @@ Ensure you have the following installed:
     ```bash
     MONGO_URI=<your-mongodb-connection-string>
     PORT=5000
+    ```
 
-Replace <your-mongodb-connection-string> with the URL of your MongoDB database.
+    Replace <your-mongodb-connection-string> with the URL of your MongoDB database.
 
 7. **Run the Application**
 - Start the server:
