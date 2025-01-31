@@ -80,8 +80,9 @@ Replace <your-mongodb-connection-string> with the URL of your MongoDB database.
 
     ```bash
     npm run dev
+    ```
 
-This will start the back-end server with **nodemon** for auto-restart during development.
+    This will start the back-end server with **nodemon** for auto-restart during development.
 - Start the client (in a separate terminal, from the client folder):
 
     ```bash
