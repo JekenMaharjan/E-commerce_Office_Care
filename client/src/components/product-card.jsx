@@ -17,7 +17,7 @@ export function ProductCard({
         <CardTitle className="text-lg mb-2">{product.name}</CardTitle>
         <p className="text-sm text-gray-600 mb-2">{product.description}</p>
         <div className="flex justify-between items-center">
-          <span className="text-lg font-bold">${product.price.toFixed(2)}</span>
+          <span className="text-lg font-bold">Rs.{product.price.toFixed(2)}</span>
           <Badge variant={product.availability === 'In Stock' ? 'default' : 'secondary'}>
             {product.availability}
           </Badge>
